@@ -1,0 +1,56 @@
+.header {
+  background: #1a187a;
+  padding: auto;
+}
+.header .navbar-brand {
+  color: white;
+  font-weight: 600;
+  font-size: 26px;
+}
+.header .nav-item a {
+  color: #5f5da2;
+  font-weight: 600;
+}
+.header .nav-item .active {
+  color: white;
+}
+.header .nav-item i {
+  color: white;
+}
+.header .navbar-toggler {
+  background-color: white;
+}
+
+/* ======= Slider area CSS====== */
+.slider {
+  background-image: url("../images/sliderbg.png");
+  background-size: cover;
+  max-height: 500px;
+  overflow: hidden;
+}
+.slider .carousel-inner {
+  padding: 0 120px;
+}
+.slider .carousel-item-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+  position: relative;
+}
+
+.slider .carousel-item-container h4 {
+  color: #1e046a;
+  font-size: 25px;
+}
+.slider .carousel-item-container h1 {
+  color: #000000;
+  font-size: 96px;
+  line-height: 72px;
+}
+.slider .carousel-item-container .btn {
+  background-color: #171495;
+}
+.slider .carousel-item-container img {
+  width: auto;
+}
