@@ -61,7 +61,20 @@ li {
 .slider .carousel-item-container img {
   width: auto;
 }
-
+/* product category area start */
+.p_category .card {
+  background-color: #ededed;
+  border-radius: 20px;
+  padding: 20px 10px;
+}
+.p_category .card i {
+  font-size: 24px;
+  font-weight: 600;
+}
+.p_category .card h4 {
+  font-size: 16px;
+}
+/* product category area end */
 /* Category area css */
 .category ul li {
   color: #8b8b8b;
@@ -87,6 +100,42 @@ li {
   font-weight: 600;
   color: #909090;
 }
+
+/* feature area start */
+
+.feature {
+  padding: 70px 0;
+  background-color: #958ad4;
+  position: relative;
+}
+.feature h1 {
+  color: #25177b;
+  font-weight: 600;
+  font-size: 72px;
+}
+.feature h1 span {
+  color: white;
+}
+.feature .left_img img {
+  position: absolute;
+  left: -20%;
+  top: 50%;
+  transform: translateY(-50%) translateX(20%);
+  width: auto;
+  object-fit: cover;
+}
+.feature .right_img img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%) translateX(20%);
+  width: auto;
+  object-fit: cover;
+  width: 220px;
+}
+.feature .content {
+  width: 25%;
+}
 /* footer area start */
 .footer {
   background-color: #0e071b;
@@ -99,4 +148,70 @@ li {
 }
 .footer .list1 ul li {
   color: CFCFCF;
+}
+
+/* feature 2 area start
+ */
+.feature2 {
+  display: flex;
+  align-items: center;
+}
+.feature2 .box1 {
+  width: 50%;
+  /* display: flex; */
+}
+
+.box1 .ubox {
+  display: flex;
+  align-items: center;
+}
+.box1 .ubox img {
+  width: 45%;
+  margin-right: -25px;
+}
+.dbox {
+  background-color: #adc2d7;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dbox img {
+  width: 75%;
+}
+.feature2 .box2 {
+  width: 50%;
+  background-color: #ededed;
+  height: 100%;
+  padding-left: 60px;
+  display: flex;
+  align-items: center;
+}
+.box2 .lbox {
+  width: 50%;
+}
+.box2 .rbox {
+  width: 50%;
+}
+.lbox .btn {
+  background-color: #27448e;
+  border: none;
+}
+.rbox img {
+  max-height: 470px;
+}
+
+.slider .carousel-item .content {
+  margin-top: 180px;
+}
+.header form {
+  position: relative;
+}
+.header form i {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10%;
 }

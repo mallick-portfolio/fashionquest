@@ -11,6 +11,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
   </head>
   <body>
     <!-- header area start -->
@@ -47,9 +48,7 @@
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
+              <i class="fa-solid fa-magnifying-glass"></i>
             </form>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -79,47 +78,53 @@
     <!-- header area end -->
 
     <!-- Slider area Start -->
-    <section class="slider">
-      <div id="bannerSlider" class="carousel slide">
+    <section class="slider container-fluid">
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="carousel-item-container">
-              <div class="slider_content">
-                <h4>sdfsdf.</h4>
-                <h1>sdfsdf 14 Pro</h1>
-                <p>sfsdf to change everything for the better. For everyone</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+            <div
+              class="d-flex flex-column flex-md-row align-items-start justify-content-between"
+            >
+              <div class="content">
+                <h4>Pro.Beyond.</h4>
+                <h1>IPhone 14 Pro</h1>
+                <p>
+                  Created to chang e everything for the better. For everyone
+                </p>
+                <button type="button" class="btn btn-dark">Show Now</button>
               </div>
-              <div><img src="./images/slider1.png" class="" alt="..." /></div>
+              <div>
+                <img src="./images/slider1.png" class="d-block w-100" alt="" />
+              </div>
             </div>
           </div>
           <div class="carousel-item">
-            <div class="carousel-item-container">
-              <div>
-                <h4>sdfsdf.</h4>
-                <h1>sdfsdf 14 Pro</h1>
-                <p>sfsdf to change everything for the better. For everyone</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+            <div
+              class="d-flex flex-column flex-md-row align-items-start justify-content-between"
+            >
+              <div class="content">
+                <h4>Pro.Beyond.</h4>
+                <h1>IPhone 15 Pro</h1>
+                <p>
+                  Continue your journey with our latest phone with latest
+                  feature
+                </p>
+                <button type="button" class="btn btn-dark">Show Now</button>
               </div>
-              <div><img src="./images/slider1.png" class="" alt="..." /></div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="carousel-item-container">
               <div>
-                <h4>sdfsdf.</h4>
-                <h1>sdfsdf 14 Pro</h1>
-                <p>sfsdf to change everything for the better. For everyone</p>
-                <button type="button" class="btn btn-primary">Primary</button>
+                <img src="./images/slider1.png" class="d-block w-100" alt="" />
               </div>
-              <div><img src="./images/slider1.png" class="" alt="..." /></div>
             </div>
           </div>
         </div>
         <button
           class="carousel-control-prev"
           type="button"
-          data-bs-target="#bannerSlider"
+          data-bs-target="#carouselExampleControls"
           data-bs-slide="prev"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -128,7 +133,7 @@
         <button
           class="carousel-control-next"
           type="button"
-          data-bs-target="#bannerSlider"
+          data-bs-target="#carouselExampleControls"
           data-bs-slide="next"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
@@ -137,6 +142,123 @@
       </div>
     </section>
     <!-- Slider area End -->
+
+    <!-- Banner 2 area start -->
+    <section class="feature2">
+      <div class="box1">
+        <div class="ubox">
+          <img src="./images/ipad.png" alt="" />
+          <div class="content">
+            <h3>iPad 9</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud.
+            </p>
+          </div>
+        </div>
+        <div class="dbox">
+          <img src="./images/ring.png" alt="" />
+          <div>
+            <h4>Apple AirPods <span>Max</span></h4>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="box2">
+        <div class="lbox">
+          <h3>Macbook Air</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad
+          </p>
+          <button type="button" class="btn btn-dark">Show Now</button>
+        </div>
+        <div class="rbox">
+          <img class="w-auto h-auto" src="./images/goup.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- Banner 2 area end -->
+
+    <!-- Product category area start -->
+    <section class="p_category py-5">
+      <div class="container">
+        <div class="my-5 d-flex justify-content-between align-items-center">
+          <h3 class="active">New Arrival</h3>
+          <div class="d-flex gap-2 gap-sm-3 align-items-center">
+            <i class="fa-solid fa-chevron-left"></i>
+            <i class="fa-solid fa-chevron-right"></i>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-solid fa-mobile-screen-button"></i>
+                </h5>
+                <h4 class="card-title text-center">Phones</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-regular fa-clock"></i>
+                </h5>
+                <h4 class="card-title text-center">Smart Watches</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-solid fa-camera"></i>
+                </h5>
+                <h4 class="card-title text-center">Cameras</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-solid fa-headphones-simple"></i>
+                </h5>
+                <h4 class="card-title text-center">Headphones</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-solid fa-laptop"></i>
+                </h5>
+                <h4 class="card-title text-center">Computers</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-2 col-6 my-2">
+            <div class="card border-0">
+              <div class="card-body">
+                <h5 class="card-title text-center">
+                  <i class="fa-solid fa-dice"></i>
+                </h5>
+                <h4 class="card-title text-center">Gaming</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories area end -->
 
     <!-- Categories area start -->
     <section class="category py-5">
@@ -149,7 +271,7 @@
           </ul>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 my-2">
             <div class="card border-0">
               <span><i class="fa-regular fa-heart"></i></span>
               <img
@@ -173,7 +295,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 my-2">
             <div class="card border-0">
               <span><i class="fa-regular fa-heart"></i></span>
               <img
@@ -197,7 +319,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 my-2">
             <div class="card border-0">
               <span><i class="fa-regular fa-heart"></i></span>
               <img
@@ -221,7 +343,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3">
+          <div class="col-md-3 col-6 my-2">
             <div class="card border-0">
               <span><i class="fa-regular fa-heart"></i></span>
               <img
@@ -248,10 +370,28 @@
     </section>
     <!-- Categories area end -->
 
+    <!-- feature area start -->
+    <section class="feature">
+      <div class="left_img">
+        <img class="w-25" src="./images/leftimage.png" alt="" />
+      </div>
+      <div class="text-center content mx-auto">
+        <h1>11.11 <span>Sale</span></h1>
+        <p class="text-white">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+      </div>
+      <div class="right_img">
+        <img class="" src="./images/feature2.png" alt="" />
+      </div>
+    </section>
+    <!-- feature area end -->
+
     <!-- Footer area start -->
     <section class="footer">
       <div class="container">
-        <div class="row gap-3 align-items-center">
+        <div class="row align-items-center">
           <div class="col-lg-3 text-center text-sm-start order-sm-0 col-12">
             <div class="logo">
               <a class="navbar-brand" href="#">
