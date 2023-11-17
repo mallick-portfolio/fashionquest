@@ -1,3 +1,10 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
 .header {
   background: #1a187a;
   padding: auto;
@@ -53,4 +60,18 @@
 }
 .slider .carousel-item-container img {
   width: auto;
+}
+
+/* footer area start */
+.footer {
+  background-color: #0e071b;
+  padding: 50px 0;
+}
+.footer .logo {
+  color: white;
+  font-size: 26px;
+  font-weight: 600;
+}
+.footer .list1 ul li {
+  color: CFCFCF;
 }
