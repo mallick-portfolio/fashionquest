@@ -62,6 +62,31 @@ li {
   width: auto;
 }
 
+/* Category area css */
+.category ul li {
+  color: #8b8b8b;
+  font-size: 18px;
+}
+.category ul li.active {
+  color: #000000;
+  text-decoration: underline;
+  text-underline-offset: #000000;
+}
+.category .card {
+  background-color: #f6f6f6;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.category .card span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 26px;
+  font-weight: 600;
+  color: #909090;
+}
 /* footer area start */
 .footer {
   background-color: #0e071b;
